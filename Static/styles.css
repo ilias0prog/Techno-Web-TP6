@@ -1,0 +1,124 @@
+@import url('outfit.css');
+@import url('satoshi.css');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e6e6e3;
+}
+
+*{
+    font-family: 'Outfit-Medium';
+    color: #153448;
+}
+
+
+.title{
+    background-color: #153448;
+    color: #e6e6e3;
+    border: none;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.08);
+    height: 24vh;
+    padding: 4vh;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Outfit-ExtraBold';
+    font-size: 3em;
+    display: block;
+    margin-bottom: 0;
+    margin-right: 10vw;
+    color: inherit;
+}
+
+h2{
+    font-family: 'Outfit-thin';
+    display: block;
+    margin-left: 10vw;
+    color: inherit;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Outfit-Bold';
+}
+
+h4{
+}
+
+.container{
+    padding: 4vh 5vw 4vh 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10vw;
+}
+
+.books{
+    border: none 1px #e6e6e3;
+    border-radius: 16px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.12);
+    color: #153448;
+}
+
+#to_buy{
+    border-right: solid #77ab59 3px;
+}
+
+#sold{
+    border-left: solid #ff6f69 3px;
+}
+
+.book{
+    margin: 16px 32px;
+    display: block;
+    font-size:medium;
+    font-family: 'Outfit-ExtraLight';
+}
+
+/* Styles pour le formulaire */
+form {
+    margin-top: 4vh;
+    padding: 2vh 5vw;
+    background-color: #e6e6e3;
+    border-radius: 16px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-family: 'Outfit-Thin';
+    color: #153448;
+    margin-bottom: 1vh;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 40vw;
+    padding: 0.5vh;
+    margin-bottom: 2vh;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.04);
+    color: #153448;
+}
+
+button[type="submit"] {
+    padding: 1vh 3vw;
+    border: none;
+    border-radius: 8px;
+    background-color: #e6e6e3;
+    color: #153448;
+    font-family: 'Outfit-Light';
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #153448;
+    color: #e6e6e3;
+}

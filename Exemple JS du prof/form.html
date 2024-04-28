@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Exemple de formulaire</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container my-4">
+
+    <table class="table" id="tasks_table">
+      <thead>
+        <th>Nom</th>
+        <th>Description</th>
+        <th>État</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sortir le chien</td>
+          <td>Il en a besoin...</td>
+          <td>
+            <button class="btn btn-sm btn-danger">En cours</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr class="my-4">
+
+    <h2>Ajouter une tâche</h2>
+
+    <form id="new_task_form" class="form">
+      <div class="form-group">
+        <label for="name">Nom de la tâche</label>
+        <input class="form-control" type="text" name="name" id="name">
+        <small class="form-text- text-muted">Veuillez choisir un nom concis.</small>
+      </div>
+      <div class="form-group">
+        <label for="description">Description de la tâche</label>
+        <textarea class="form-control" name="description" id="description" cols="15" rows="4"></textarea>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="completed" id="completed">
+        <label class="form-check-label" for="completed">Tâche validée</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Ajouter</button>
+    </form>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/03.form.js"></script>
+</body>
+
+</html>
