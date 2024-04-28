@@ -2,19 +2,19 @@
 @import url('satoshi.css');
 
 
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: #e6e6e3;
 }
 
-*{
+* {
     font-family: 'Outfit-Medium';
     color: #153448;
 }
 
 
-.title{
+.title {
     background-color: #153448;
     color: #e6e6e3;
     border: none;
@@ -25,7 +25,7 @@ body{
     text-align: center;
 }
 
-h1{
+h1 {
     font-family: 'Outfit-ExtraBold';
     font-size: 3em;
     display: block;
@@ -34,47 +34,46 @@ h1{
     color: inherit;
 }
 
-h2{
+h2 {
     font-family: 'Outfit-thin';
     display: block;
     margin-left: 10vw;
     color: inherit;
 }
 
-h3{
+h3 {
     text-align: center;
     font-family: 'Outfit-Bold';
 }
 
-h4{
-}
+h4 {}
 
-.container{
+.container {
     padding: 4vh 5vw 4vh 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10vw;
 }
 
-.books{
+.books {
     border: none 1px #e6e6e3;
     border-radius: 16px;
     box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.12);
     color: #153448;
 }
 
-#to_buy{
-    border-right: solid #77ab59 3px;
+#to_buy {
+    border-top: solid rgba(119, 171, 89, 0.5) 3px;
 }
 
-#sold{
-    border-left: solid #ff6f69 3px;
+#sold {
+    border-top: solid rgba(255, 111, 105, .5) 3px;
 }
 
-.book{
+.book {
     margin: 16px 32px;
     display: block;
-    font-size:medium;
+    font-size: medium;
     font-family: 'Outfit-ExtraLight';
 }
 
